@@ -28,7 +28,7 @@ body {
 
 .cityName, .temperature {
   font-size: 2rem;
-  color: rgba(0, 0, 0, 0.822);
+  color: #000000d2;
 }
 
 .temperature {

@@ -61,11 +61,21 @@ class WeatherApp {
     const descriptionValue = document.createElement('p');
     const emoji = document.createElement('p');
 
-    cityName.classList.add('cityName');
-    temperature.classList.add('temperature');
-    humidityValue.classList.add('humidity');
-    descriptionValue.classList.add('description');
-    emoji.classList.add('emoji');
+    cityName.classList.add('text-4xl');
+    cityName.classList.add('font-bold');
+    cityName.classList.add('text-[#000000d2]');
+
+    temperature.classList.add('text-3xl');
+    temperature.classList.add('text-[#000000d2]');
+    temperature.classList.add('mb-2.5');
+
+    humidityValue.classList.add('text-lg');
+    humidityValue.classList.add('mb-2.5');
+
+    descriptionValue.classList.add('text-xl');
+    descriptionValue.classList.add('font-bold');
+
+    emoji.classList.add('text-9xl');
 
 
     cityName.textContent = city;
