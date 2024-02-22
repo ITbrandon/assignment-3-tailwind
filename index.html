@@ -6,15 +6,33 @@
   <title>Document</title>
   <link rel="stylesheet" href="styles.css">
   <script src="client.js" type="module"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        screens: {
+            sm: '480px',
+            md: '768px',
+            lg: '976px',
+            xl: '1440px'
+          },
+        extends: {
+          fontFamily: {
+            franklin: ['Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
 </head>
-<body>
+<body class="flex flex-col items-center font-franklin h-full p-4">
   <form id = "weatherForm">
-    <input type="text" class="input" id="cityInput" placeholder="Enter city">
-    <button type="submit" class="button">Get Weather</button>
+    <input type="text" class="p-4 border-2 border-[#00000061] rounded-xl text-base font-bold" id="cityInput" placeholder="Enter city">
+    <button type="submit" class="text-base text-white bg-[#44e444] p-4 border-none font-bold rounded-xl duration-500 cursor-pointer hover:bg-[#273227]">Get Weather</button>
   </form>
 
   <article class="card" id="card" style="display: none;">
-    
   </article>
 </body>
 </html>
+
