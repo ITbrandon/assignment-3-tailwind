@@ -2,8 +2,8 @@
 
 # Web Development Tools and Techniques - Assignment 3
 
-# https://github.com/ITbrandon/assignment-3-tailwind/tree/main
+# Repo: https://github.com/ITbrandon/assignment-3-tailwind/tree/main
 
-# (placeholder)
+# Pages: https://itbrandon.github.io/assignment-3-tailwind/
 
 # Api = Open Weather Api: (https://openweathermap.org/api)
