@@ -66,6 +66,7 @@ class WeatherApp {
     cityName.classList.add('text-[#000000d2]');
 
     temperature.classList.add('text-3xl');
+    temperature.classList.add('font-bold');
     temperature.classList.add('text-[#000000d2]');
     temperature.classList.add('mb-2.5');
 
@@ -76,7 +77,8 @@ class WeatherApp {
     descriptionValue.classList.add('font-bold');
 
     emoji.classList.add('text-9xl');
-
+    emoji.classList.add('duration-300');
+    emoji.classList.add('focus:scale-150');
 
     cityName.textContent = city;
     temperature.textContent = `${(temp - 273.15).toFixed(1)}°C`;
