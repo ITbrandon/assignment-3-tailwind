@@ -13,7 +13,7 @@ body {
   padding: 1rem;
 }
 
-.card {
+/* .card {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
@@ -22,9 +22,9 @@ body {
   padding: 1rem;
   border-radius: 10px;
   box-shadow: 2px 2px 5px black;
-  background-image: linear-gradient(to bottom, rgb(210, 210, 255), rgba(250, 255, 156, 0.97));
+  background-image: linear-gradient(to bottom, #d2d2ff, #faff9cf7);
   width: 250px;
-}
+} */
 
 .cityName, .temperature {
   font-size: 2rem;
