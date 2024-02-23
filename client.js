@@ -53,7 +53,7 @@ class WeatherApp {
            weather: [{description, id}]} = data;
 
     this.card.textContent = "";
-    this.card.style.display = "flex";
+    this.card.classList.remove('hidden')
 
     const cityName = document.createElement('h1');
     const temperature = document.createElement('p');
