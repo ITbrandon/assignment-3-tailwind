@@ -70,7 +70,7 @@ class WeatherApp {
     temperature.classList.add('text-[#000000d2]');
     temperature.classList.add('mb-2.5');
 
-    humidityValue.classList.add('text-lg');
+    humidityValue.classList.add('text-xl');
     humidityValue.classList.add('mb-2.5');
 
     descriptionValue.classList.add('text-xl');

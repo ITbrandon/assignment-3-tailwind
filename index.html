@@ -24,14 +24,15 @@
     }
   </script>
 </head>
-<body class="flex flex-col items-center font-franklin h-full p-4">
-  <form id = "weatherForm">
-    <input type="text" class="p-4 border-2 border-[#00000061] rounded-xl text-base font-bold" id="cityInput" placeholder="Enter city">
-    <button type="submit" class="text-base text-white bg-[#44e444] p-4 border-none font-bold rounded-xl duration-500 cursor-pointer hover:bg-[#273227] active:bg-[#add8e6]">Get Weather</button>
+<body class="font-franklin h-full p-4 bg-blue-300 text-xl">
+  <main class="flex flex-col items-center ">
+  <form id = "weatherForm" class="flex flex-col items-center justify-center gap-4 md:flex-row">
+    <input type="text" class="p-4 border-2 border-[#00000061] rounded-xl font-bold" id="cityInput" placeholder="Enter city">
+    <button type="submit" class="text-white bg-[#44e444] p-4 border-none font-bold rounded-xl duration-500 cursor-pointer hover:bg-[#273227] active:bg-[#add8e6]">Get Weather</button>
   </form>
-
   <article class="mt-5 flex flex-col items-center gap-2 p-4 rounded-xl shadow-lg bg-gradient-to-b from-[#d2d2ff] to-[#faff9cf7] w-64 md:w-4/5 hidden" id="card">
   </article>
+  </main>
 </body>
 </html>
 
